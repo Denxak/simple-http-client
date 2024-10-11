@@ -17,7 +17,7 @@ public class ConvertFixedAppl {
         double amount = 1000.0;
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
-        headers.add("apikey", "htFDnfM17XhTiAnsBnYGBvC9Izgwz5iU");
+        headers.add("apikey", "APIKEY");
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl("https://api.apilayer.com/fixer/convert")
                 .queryParam("from", from)
                 .queryParam("to", to)
